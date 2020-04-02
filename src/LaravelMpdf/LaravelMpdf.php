@@ -60,6 +60,7 @@ class LaravelMpdf {
 		$this->mpdf->showWatermarkText  = $this->getConfig('show_watermark');
 		$this->mpdf->watermark_font     = $this->getConfig('watermark_font');
 		$this->mpdf->watermarkTextAlpha = $this->getConfig('watermark_text_alpha');
+		$this->mpdf->useActiveForms 	= $this->getConfig('use_active_forms');
 
 		$this->mpdf->WriteHTML($html);
 	}
