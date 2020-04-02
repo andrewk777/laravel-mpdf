@@ -25,4 +25,5 @@ return [
     'temp_dir'                => '',
     'pdfa'                    => false,
     'pdfaauto'                => false,
+    'use_active_forms         => true
 ];
